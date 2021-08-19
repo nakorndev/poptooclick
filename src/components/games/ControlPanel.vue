@@ -17,7 +17,7 @@
       </div>
       <footer class="control-footer">
         <span>
-          Developed by <a href="https://github.com/nakorndev" target="_blank">nakorndev</a>
+          Developed by <a href="https://github.com/nakorndev" target="_blank">nakorndev</a> | <a href="https://github.com/nakorndev/poptooclick" target="_blank">GitHub</a>
         </span>
       </footer>
     </div>
