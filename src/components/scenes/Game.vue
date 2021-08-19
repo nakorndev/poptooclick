@@ -84,7 +84,7 @@ export default {
         duration: random(300000, 350000),
         update (anim) {
           const target = anim.animatables[0].target
-          const offsetRight = target.style.transform.replace( /^\D+/g, '').split('.')[0]
+          const offsetRight = target.style.transform.replace(/^\D+/g, '').split('.')[0]
           if (offsetRight > window.innerWidth + 100) {
             target.remove()
           }

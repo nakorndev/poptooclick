@@ -27,7 +27,7 @@ export default {
     onInitGame () {
       // TODO: android as default lite mode but can be improved?
       const lite = localStorage.getItem('lite')
-      if ((isMobile.android.device && lite == undefined) || lite === 'true') {
+      if ((isMobile.android.device && lite === null) || lite === 'true') {
         this.toggleLiteMode()
       }
       const clicked = localStorage.getItem('clicked')
