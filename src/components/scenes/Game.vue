@@ -131,8 +131,6 @@ export default {
       this.animateBounce()
       if (!this.liteMode) {
         this.addEmojiFloat(this.currentTeam === 'angry' ? 'images/angry.png' : 'images/love.png')
-      } else {
-
       }
     }
   }
