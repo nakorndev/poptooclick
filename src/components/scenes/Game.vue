@@ -125,7 +125,10 @@ export default {
       }
     },
 
-    onClick () {
+    onClick (event) {
+      if (event.repeat) {
+        return
+      }
       this.addClick()
       this.playSound()
       this.animateBounce()
