@@ -1,4 +1,4 @@
 module.exports = {
-  publicPath: 'https://nakorndev.github.io/poptooclick/',
+  publicPath: '/poptooclick/',
   lintOnSave: false
 }
